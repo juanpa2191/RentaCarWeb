@@ -44,7 +44,7 @@ public class Conexion {
     }
     public void ConexionBD(){
         try{
-            setCon(DriverManager.getConnection("jdbc:mysql://localhost:3303/felix","root",""));
+            setCon(DriverManager.getConnection("jdbc:mysql://localhost:88/db_rentaauto","root",""));
         
         }catch(SQLException e6){
             System.out.println("SQLException "+e6.getMessage());
